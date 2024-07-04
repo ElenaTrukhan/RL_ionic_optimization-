@@ -1,6 +1,6 @@
 import os
 import re
-
+import pandas as pd 
 
 def extract_number(filename):
     match = re.search(r'(\d+)$', filename)
@@ -16,3 +16,11 @@ def get_the_last_checkpoint(folder_path):
         return folder_path + "/" + last_file
     else:
         return None
+        
+def get_new_df_interval(name, n, interval): 
+    df = pd.read_csv(name) 
+    selected_rows = df[df['nsites'] == n].iloc[interval]
+
+    # Creating a new DataFrame
+    new_df = pd.DataFrame(selected_rows)
+    return new_df
