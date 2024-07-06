@@ -15,6 +15,7 @@ import pandas as pd
 from pymatgen.core.structure import Structure
 from ase.calculators.lj import LennardJones
 import datetime
+import e3nn 
 
 torch.set_default_dtype(torch.float64)
 
