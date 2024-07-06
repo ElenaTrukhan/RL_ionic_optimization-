@@ -2,24 +2,23 @@ from IPython.display import clear_output
 from matplotlib import pyplot as plt
 import numpy as np
 import copy
+import os 
 
-
-def create_plots(i, num_episodes, data_list):  
+def create_plots(data_list, save = False, show = True, path_to_the_main_dir = None, env_name = None, suffix = None, name = None):  
     
         font = {'family': 'serif',
 #         'color':  'Black',
         'weight': 'normal',
         'size': 14,
         }
-
         numb = int(len(data_list)//3) + 1*(int(len(data_list)%3)!=0)
-        clear_output(wait=True)
+        if show: 
+            clear_output(wait=True)
 
         fig, axes = plt.subplots(numb, 3)
         plt.rc('font', **font)
         fig.set_figwidth(20)    #  ширина и
         fig.set_figheight(8)
-#         fig.suptitle(f"Episode {1+i}/{num_episodes}", fontsize=16)
         axes = axes.flatten()
         for item_ax in zip(data_list.keys(), axes):
             item = item_ax[0]
@@ -33,6 +32,9 @@ def create_plots(i, num_episodes, data_list):
                     fmt = "-"
                 ax.plot(data, fmt, label = label)
                 ax.set_title(item, fontdict=font)
+                
+            if len(data)!= 0 and data_list[item][4] is not None: 
+                ax.plot(data_list[item][4], min(data)*np.ones(len(data_list[item][4])),'|r')
                 
             if type(data_list[item][2]) is np.ndarray or type(data_list[item][2]) is list:
                 ylim = copy.deepcopy(data_list[item][2])
@@ -49,4 +51,14 @@ def create_plots(i, num_episodes, data_list):
             ax.set_xlabel("Number of steps", fontdict=font)
             ax.legend()
         plt.tight_layout()
-        plt.show()
+        
+        if show: 
+            plt.show()
+        if save: 
+            if not os.path.exists(path_to_the_main_dir + "/" + 'plots/'):
+                os.makedirs(path_to_the_main_dir + "/" +'plots/')
+    
+            path_to_save = "{0}_{1}".format(env_name, suffix)
+            fig.savefig(path_to_the_main_dir + "/" +"plots/" + path_to_save + name)
+            plt.close(fig)
+            
