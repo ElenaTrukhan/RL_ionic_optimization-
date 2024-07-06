@@ -12,6 +12,7 @@ from e3nn.o3 import TensorProduct, FullyConnectedTensorProduct
 from typing import Dict, Union
 import torch_scatter
 from copy import deepcopy
+import e3nn 
 
 torch.set_default_dtype(torch.float64)
 
