@@ -121,6 +121,9 @@ critic_feat = {"em_dim": args.em_dim,
 ac_kwards = {"net_actor": PeriodicNetwork_Pi, "net_critic": PeriodicNetwork_Q, 
              "actor_feat": actor_feat, "critic_feat": critic_feat}
 
+if not os.path.exists(path_to_the_main_dir):
+    os.makedirs(path_to_the_main_dir)
+
 
 if args.path_weights == 'last': 
     assert os.path.exists(args.path_to_the_main_dir + "/data")
