@@ -27,6 +27,7 @@ parser.add_argument('--noise_clip', type=float, default=0.1, help='Limit for abs
 parser.add_argument('--pi_n_layers', type=int, default=2, help = 'Number of gates for Actor')
 parser.add_argument('--pi_mul', type=int, default=20, help = 'Multiplicity of the Irreps in hidden layers for Actor')
 parser.add_argument('--pi_lmax', type=int, default=2, help = 'Maximum order of spherical harmonics in the convolutional layer for Actor')
+parser.add_argument('--expl_mode', type=str, default='state', help = 'Exploration mode: state | action')
 parser.add_argument('--num_neighbors', type=int, default=25, help = 'Typical number of nodes at a distance ``max_radius``')
 parser.add_argument('--q_n_layers', type=int, default=2, help = 'Number of gates for Critic')
 parser.add_argument('--q_mul', type=int, default=20, help = 'Multiplicity of the Irreps in hidden layers for Critic')
@@ -89,7 +90,8 @@ actor_feat = {"em_dim" :args.em_dim,
                 "mul" : args.pi_mul,                                
                 "lmax" : args.pi_lmax,                               
                 "max_radius" : args.r_max,                      
-                "num_neighbors" : args.num_neighbors,          
+                "num_neighbors" : args.num_neighbors,  
+                "expl_mode" : args.expl_mode, 
                 "reduce_output" : False}
 
 critic_feat = {"em_dim": args.em_dim, 
