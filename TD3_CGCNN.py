@@ -70,7 +70,7 @@ args = parser.parse_args()
 s_lib, calcs = get_sturct_lib_and_calcs_gen(args.structures_file)
 
 env_kwards = {"input_struct_lib": s_lib, "convert_to_graph_func": to_graph, 
-                "calculator_lib": calcs, "r0":args.r0 , "eps" : args.eps, "EMAX": args.EMAX,  
+                "calculator_lib": calcs, "r0":args.r0 , "eps" : args.eps, 
                 "reward_func" : args.reward_func, "r_weights": args.r_weights, "stop_numb": args.stop_numb}
 
 actor_feat = {"num_node_features": args.num_node_features + 4, 
