@@ -28,11 +28,11 @@ class PeriodicNetwork_Pi(Network):
         Flag controlling whether to predict actions relative to the unit cell.
     """
 
-    def __init__(self, em_dim, noise_clip, scaled = False, **kwargs):            
+    def __init__(self, em_dim, noise_clip, scaled = False, expl_mode = 'state', **kwargs):            
 
         kwargs['reduce_output'] = False
         self.scaled = scaled   
-        self.exploration_mode
+        self.exploration_mode = expl_mode
         
         super().__init__(**kwargs)
         self.em = nn.Linear(1, em_dim)
@@ -40,7 +40,7 @@ class PeriodicNetwork_Pi(Network):
 
     def forward(self, data, noise_scale = None) :
         data_copy = data.clone()
-        if noise_scale is not None: 
+        if noise_scale is not None and self.exploration_mode == 'state': 
             axis, angle = e3nn.o3.rand_axis_angle(1)
             angle *= 0.5*noise_scale  
             angle = torch.clamp(angle, -self.noise_clip, self.noise_clip)
@@ -50,11 +50,15 @@ class PeriodicNetwork_Pi(Network):
             epsilon = (2*torch.rand(data_copy.forces_norm.shape[0],1)-1)*noise_scale
             epsilon = torch.clamp(epsilon, -self.noise_clip, self.noise_clip).to(data_copy.forces_stack.device)
             data_copy.forces_norm *= (1+epsilon) 
-        
         forces_ampl = F.leaky_relu(self.em(data_copy.forces_norm))
         data_copy.x = torch.hstack([data_copy.x, data_copy.forces_stack, forces_ampl])
         output = super().forward(data_copy)
-                
+        
+        if noise_scale is not None and self.exploration_mode == 'action':
+            epsilon = torch.randn_like(data_copy.x) * noise_scale
+            epsilon = torch.clamp(epsilon, -self.noise_clip, self.noise_clip)
+            data_copy.x += epsilon
+            
         if self.scaled: 
             output = torch.tanh(output)
         return Data(x = output)
