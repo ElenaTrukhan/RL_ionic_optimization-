@@ -22,7 +22,7 @@ class PeriodicNetwork_Pi(Network):
         Number of neurons in the embedding layer for the force norm.
 
     noise_clip : float 
-        Limit for absolute value of target policy smoothing noise. 
+        Limit for the absolute value of target policy smoothing noise. 
     
     scaled : bool
         Flag controlling whether to predict actions relative to the unit cell.
@@ -31,7 +31,8 @@ class PeriodicNetwork_Pi(Network):
     def __init__(self, em_dim, noise_clip, scaled = False, **kwargs):            
 
         kwargs['reduce_output'] = False
-        self.scaled = scaled        
+        self.scaled = scaled   
+        self.exploration_mode
         
         super().__init__(**kwargs)
         self.em = nn.Linear(1, em_dim)
