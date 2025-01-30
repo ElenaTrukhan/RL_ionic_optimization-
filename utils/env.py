@@ -34,7 +34,7 @@ def get_sturct_lib(name):
     return lib
 
 
-def get_sturct_lib_and_calcs_gen(name):
+def get_sturct_lib_and_calcs_gen(name, interval = None):
     df = pd.read_csv(name) 
     lib,calcs = [], []
     for item, nsite in zip(df["structure"],df["nsites"]):
@@ -43,7 +43,10 @@ def get_sturct_lib_and_calcs_gen(name):
             struct.make_supercell([2, 1, 1])
         calcs.append(func_for_calc(struct))
         lib.append(struct)
-    return lib, calcs
+    if interval is None: 
+        return lib, calcs
+    else: 
+        return lib[interval[0]:interval[1]], calcs[interval[0]:interval[1]]
 
 
 def get_func_true(state, rmin, rmax = params["radius"]): 
