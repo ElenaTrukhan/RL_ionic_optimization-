@@ -14,6 +14,7 @@ parser = argparse.ArgumentParser(description='TD3')
 
 #Environment parameters 
 parser.add_argument('--structures_file', type=str, help='Path to the file with input structures')
+parser.add_argument('--interval', type=eval, default=None, help='The range of structures from structures_file that will be used for training')
 parser.add_argument('--eps', type=float, default=0.1, help='Force threshold, eV/A')
 parser.add_argument('--reward_func', type=str, default='step', help='Reward function type: force | log_force | step | hybrid')
 parser.add_argument('--r_weights', type=eval, default=[1, 0, 0.5], help='Weights for the hybrid reward function')
@@ -75,7 +76,7 @@ parser.add_argument('--nfake', type=int, default=10, help = 'Fake episodes are s
 args = parser.parse_args()
 
 
-s_lib, calcs = get_sturct_lib_and_calcs_gen(args.structures_file)
+s_lib, calcs = get_sturct_lib_and_calcs_gen(args.structures_file, interval = args.interval)
 
 env_kwards = {"input_struct_lib": s_lib, "convert_to_graph_func": to_graph, 
                 "calculator_lib": calcs, "r0":args.r0 , "eps" : args.eps, 
