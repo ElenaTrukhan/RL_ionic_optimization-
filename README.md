@@ -32,5 +32,5 @@ Example for cubic AlFe with EAM potential without additional greedy exploration 
 
 ## Checkpoints 
 
-One can find chackpoints for model presented in the paper in the [following directory](https://drive.google.com/drive/folders/1TSmsNDrnJUma8gWPG9BUlwtLYRhxxn0H?usp=sharing). 
+One can find checkpoints for models presented in the paper in the [following directory](https://drive.google.com/drive/folders/1TSmsNDrnJUma8gWPG9BUlwtLYRhxxn0H?usp=sharing). 
 
