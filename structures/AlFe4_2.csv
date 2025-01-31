@@ -1,0 +1,1501 @@
+,structure,nsites
+0,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       3.49792
+_cell_length_b       3.49792
+_cell_length_c       5.56084
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.99460  1.0000
+  Al  Al2       1.0  0.00000  0.00000  0.49460  1.0000
+  Al  Al3       1.0  0.50000  0.50000  0.04790  1.0000
+  Al  Al4       1.0  0.50000  0.50000  0.54790  1.0000
+",4
+1,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       3.3162
+_cell_length_b       3.3162
+_cell_length_c       3.80082
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.50000  0.50000  0.82342  1.0000
+  Fe  Fe2       1.0  0.50000  0.50000  0.32342  1.0000
+  Fe  Fe3       1.0  0.00000  0.50000  0.39634  1.0000
+  Fe  Fe4       1.0  0.50000  0.00000  0.89634  1.0000
+",4
+2,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       3.68598
+_cell_length_b       3.15772
+_cell_length_c       4.71802
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.32488  0.50000  0.00000  1.0000
+  Al  Al2       1.0  0.67512  0.50000  0.00000  1.0000
+  Fe  Fe1       1.0  0.00000  0.50000  0.00000  1.0000
+  Fe  Fe2       1.0  0.50000  0.00000  0.00000  1.0000
+",4
+3,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       3.99379
+_cell_length_b       3.99379
+_cell_length_c       3.85467
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.50000  0.07624  1.0000
+  Al  Al2       1.0  0.50000  0.00000  0.92376  1.0000
+  Al  Al3       1.0  0.50000  0.50000  0.00000  1.0000
+  Fe  Fe1       1.0  0.00000  0.00000  0.00000  1.0000
+",4
+4,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       3.97557
+_cell_length_b       3.97557
+_cell_length_c       3.97557
+_cell_angle_alpha    109.471
+_cell_angle_beta     70.5288
+_cell_angle_gamma    70.5288
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.00000  1.0000
+  Fe  Fe1       1.0  0.00000  0.50000  0.50000  1.0000
+  Fe  Fe2       1.0  0.50000  0.00000  0.50000  1.0000
+  Fe  Fe3       1.0  0.50000  0.50000  0.00000  1.0000
+",4
+5,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       4.35158
+_cell_length_b       4.35158
+_cell_length_c       3.59325
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50000  0.00000  0.85665  1.0000
+  Al  Al2       1.0  0.00000  0.50000  0.64335  1.0000
+  Al  Al3       1.0  0.00000  0.50000  0.14335  1.0000
+  Al  Al4       1.0  0.50000  0.00000  0.35665  1.0000
+",4
+6,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       4.43494
+_cell_length_b       3.14593
+_cell_length_c       3.14593
+_cell_angle_alpha    107.506
+_cell_angle_beta     87.6301
+_cell_angle_gamma    92.3699
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.69338  0.05255  0.46220  1.0000
+  Fe  Fe2       1.0  0.30662  0.46220  0.05255  1.0000
+  Fe  Fe3       1.0  0.30662  0.94745  0.53780  1.0000
+  Fe  Fe4       1.0  0.69338  0.53780  0.94745  1.0000
+",4
+7,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       3.86057
+_cell_length_b       3.86057
+_cell_length_c       3.86057
+_cell_angle_alpha    99.4038
+_cell_angle_beta     99.4038
+_cell_angle_gamma    99.4038
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.00000  1.0000
+  Al  Al2       1.0  0.50000  0.50000  0.50000  1.0000
+  Fe  Fe1       1.0  0.25000  0.25000  0.25000  1.0000
+  Fe  Fe2       1.0  0.75000  0.75000  0.75000  1.0000
+",4
+8,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       3.63977
+_cell_length_b       4.18168
+_cell_length_c       4.18168
+_cell_angle_alpha    90
+_cell_angle_beta     105.052
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.41471  0.50000  1.0000
+  Al  Al2       1.0  0.00000  0.93984  0.00000  1.0000
+  Al  Al3       1.0  0.50000  0.04205  0.50000  1.0000
+  Fe  Fe1       1.0  0.00000  0.58194  0.00000  1.0000
+",4
+9,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       2.742
+_cell_length_b       3.825
+_cell_length_c       4.94879
+_cell_angle_alpha    102.001
+_cell_angle_beta     104.047
+_cell_angle_gamma    76.713
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50000  0.00000  0.50000  1.0000
+  Fe  Fe1       1.0  0.33224  0.30315  0.89166  1.0000
+  Fe  Fe2       1.0  0.66776  0.69685  0.10834  1.0000
+  Fe  Fe3       1.0  0.00000  0.00000  0.00000  1.0000
+",4
+10,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       4.08836
+_cell_length_b       4.40563
+_cell_length_c       3.77726
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.81256  0.27992  0.00000  1.0000
+  Al  Al2       1.0  0.18744  0.27992  0.00000  1.0000
+  Al  Al3       1.0  0.65813  0.81195  0.50000  1.0000
+  Al  Al4       1.0  0.34187  0.81195  0.50000  1.0000
+",4
+11,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       3.78648
+_cell_length_b       3.78648
+_cell_length_c       3.78648
+_cell_angle_alpha    109.471
+_cell_angle_beta     70.5288
+_cell_angle_gamma    70.5288
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.59762  0.00000  0.00000  1.0000
+  Fe  Fe2       1.0  0.90238  0.59762  0.09762  1.0000
+  Fe  Fe3       1.0  0.00000  0.90238  0.50000  1.0000
+  Fe  Fe4       1.0  0.50000  0.50000  0.40238  1.0000
+",4
+12,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       2.86462
+_cell_length_b       7.02538
+_cell_length_c       2.86462
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    72.2561
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50000  0.79196  0.00000  1.0000
+  Al  Al2       1.0  0.00000  0.20804  0.50000  1.0000
+  Fe  Fe1       1.0  0.50000  0.50000  0.50000  1.0000
+  Fe  Fe2       1.0  0.00000  0.00000  0.00000  1.0000
+",4
+13,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       4.5022
+_cell_length_b       3.48043
+_cell_length_c       3.9234
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.86631  0.50000  0.50000  1.0000
+  Al  Al2       1.0  0.13369  0.50000  0.50000  1.0000
+  Al  Al3       1.0  0.00000  0.00000  0.50000  1.0000
+  Fe  Fe1       1.0  0.50000  0.00000  0.00000  1.0000
+",4
+14,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       3.64455
+_cell_length_b       3.64455
+_cell_length_c       3.64455
+_cell_angle_alpha    91.6159
+_cell_angle_beta     91.6159
+_cell_angle_gamma    91.6159
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.00000  1.0000
+  Fe  Fe1       1.0  0.64688  0.35312  0.50000  1.0000
+  Fe  Fe2       1.0  0.50000  0.64688  0.35312  1.0000
+  Fe  Fe3       1.0  0.35312  0.50000  0.64688  1.0000
+",4
+15,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       4.67143
+_cell_length_b       4.67143
+_cell_length_c       3.11836
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.50000  0.25000  1.0000
+  Al  Al2       1.0  0.50000  0.00000  0.25000  1.0000
+  Al  Al3       1.0  0.00000  0.50000  0.75000  1.0000
+  Al  Al4       1.0  0.50000  0.00000  0.75000  1.0000
+",4
+16,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       3.96137
+_cell_length_b       3.96137
+_cell_length_c       3.26576
+_cell_angle_alpha    90.9291
+_cell_angle_beta     114.343
+_cell_angle_gamma    65.6568
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.00000  0.00000  0.00000  1.0000
+  Fe  Fe2       1.0  0.50000  0.50000  0.50000  1.0000
+  Fe  Fe3       1.0  0.50000  0.00000  0.50000  1.0000
+  Fe  Fe4       1.0  0.00000  0.50000  0.50000  1.0000
+",4
+17,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       4.053
+_cell_length_b       4.053
+_cell_length_c       3.34382
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.50000  1.0000
+  Al  Al2       1.0  0.50000  0.50000  0.00000  1.0000
+  Fe  Fe1       1.0  0.00000  0.00000  0.00000  1.0000
+  Fe  Fe2       1.0  0.50000  0.50000  0.50000  1.0000
+",4
+18,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       4.2004
+_cell_length_b       4.57836
+_cell_length_c       4.57836
+_cell_angle_alpha    99.1078
+_cell_angle_beta     62.6953
+_cell_angle_gamma    62.6953
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  1.00000  0.71065  0.28935  1.0000
+  Al  Al2       1.0  0.00000  0.28935  0.71065  1.0000
+  Al  Al3       1.0  0.00000  0.00000  0.00000  1.0000
+  Fe  Fe1       1.0  0.00000  0.50000  0.50000  1.0000
+",4
+19,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       3.53309
+_cell_length_b       3.53309
+_cell_length_c       4.60999
+_cell_angle_alpha    67.468
+_cell_angle_beta     67.468
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50000  0.50000  0.00000  1.0000
+  Fe  Fe1       1.0  0.79876  0.79876  0.40247  1.0000
+  Fe  Fe2       1.0  0.20124  0.20124  0.59753  1.0000
+  Fe  Fe3       1.0  0.00000  0.00000  0.00000  1.0000
+",4
+20,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       3.79924
+_cell_length_b       3.79924
+_cell_length_c       4.71356
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.71727  0.50000  0.50000  1.0000
+  Al  Al2       1.0  0.28272  0.50000  0.50000  1.0000
+  Al  Al3       1.0  0.50000  0.28272  0.00000  1.0000
+  Al  Al4       1.0  0.50000  0.71727  0.00000  1.0000
+",4
+21,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       3.89869
+_cell_length_b       3.89869
+_cell_length_c       2.74959
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.80186  0.19814  0.00000  1.0000
+  Fe  Fe2       1.0  0.30186  0.30186  0.50000  1.0000
+  Fe  Fe3       1.0  0.69814  0.69814  0.50000  1.0000
+  Fe  Fe4       1.0  0.19814  0.80186  0.00000  1.0000
+",4
+22,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       2.18236
+_cell_length_b       5.03402
+_cell_length_c       4.99879
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.20621  1.0000
+  Al  Al2       1.0  0.00000  0.00000  0.79378  1.0000
+  Fe  Fe1       1.0  0.50000  0.00000  0.33943  1.0000
+  Fe  Fe2       1.0  0.50000  0.00000  0.66057  1.0000
+",4
+23,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       4.32621
+_cell_length_b       4.32621
+_cell_length_c       4.32621
+_cell_angle_alpha    113.516
+_cell_angle_beta     113.516
+_cell_angle_gamma    101.654
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.30584  0.30584  0.00000  1.0000
+  Al  Al2       1.0  0.69416  0.69416  0.00000  1.0000
+  Al  Al3       1.0  0.00000  0.00000  0.00000  1.0000
+  Fe  Fe1       1.0  0.50000  0.50000  0.00000  1.0000
+",4
+24,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       3.24712
+_cell_length_b       4.59443
+_cell_length_c       3.24712
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    86.7631
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50000  0.04184  0.50000  1.0000
+  Fe  Fe1       1.0  0.29833  0.62926  0.29833  1.0000
+  Fe  Fe2       1.0  0.70167  0.62926  0.70167  1.0000
+  Fe  Fe3       1.0  0.00000  0.76332  0.00000  1.0000
+",4
+25,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       3.85121
+_cell_length_b       4.62284
+_cell_length_c       4.62284
+_cell_angle_alpha    99.9918
+_cell_angle_beta     114.616
+_cell_angle_gamma    65.3836
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.37500  0.33916  0.83916  1.0000
+  Al  Al2       1.0  0.87500  0.66084  0.16084  1.0000
+  Al  Al3       1.0  0.46416  0.16084  0.33916  1.0000
+  Al  Al4       1.0  0.28584  0.83916  0.66084  1.0000
+",4
+26,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       3.52258
+_cell_length_b       3.59858
+_cell_length_c       3.29743
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.25000  0.84423  0.15822  1.0000
+  Fe  Fe2       1.0  0.75000  0.84423  0.34177  1.0000
+  Fe  Fe3       1.0  0.25000  0.15577  0.65822  1.0000
+  Fe  Fe4       1.0  0.75000  0.15577  0.84178  1.0000
+",4
+27,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       4.40919
+_cell_length_b       3.43433
+_cell_length_c       4.40919
+_cell_angle_alpha    111.022
+_cell_angle_beta     112.92
+_cell_angle_gamma    67.0796
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.00000  1.0000
+  Al  Al2       1.0  0.00000  0.50000  0.00000  1.0000
+  Fe  Fe1       1.0  0.50000  0.25000  0.50000  1.0000
+  Fe  Fe2       1.0  0.50000  0.75000  0.50000  1.0000
+",4
+28,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       4.00985
+_cell_length_b       2.35031
+_cell_length_c       6.52351
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50012  0.00012  0.81212  1.0000
+  Al  Al2       1.0  0.00012  0.00012  0.00012  1.0000
+  Al  Al3       1.0  0.50012  0.50012  0.50012  1.0000
+  Fe  Fe1       1.0  0.00012  0.50012  0.31212  1.0000
+",4
+29,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       3.24573
+_cell_length_b       3.24573
+_cell_length_c       5.30068
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00012  0.00012  0.50012  1.0000
+  Fe  Fe1       1.0  0.00012  0.00012  0.00012  1.0000
+  Fe  Fe2       1.0  0.33345  0.66679  0.25012  1.0000
+  Fe  Fe3       1.0  0.66677  0.33343  0.75010  1.0000
+",4
+30,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       5.39625
+_cell_length_b       2.69813
+_cell_length_c       4.67315
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00011  0.00012  0.00012  1.0000
+  Al  Al2       1.0  0.00011  0.50012  0.50012  1.0000
+  Al  Al3       1.0  0.50011  0.00012  0.00012  1.0000
+  Al  Al4       1.0  0.50011  0.50012  0.50012  1.0000
+",4
+31,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       2.36844
+_cell_length_b       7.4516
+_cell_length_c       2.36844
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.00012  0.13772  0.25012  1.0000
+  Fe  Fe2       1.0  0.00010  0.86250  0.75012  1.0000
+  Fe  Fe3       1.0  0.50012  0.63772  0.25012  1.0000
+  Fe  Fe4       1.0  0.50010  0.36250  0.75012  1.0000
+",4
+32,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       2.39455
+_cell_length_b       2.39455
+_cell_length_c       9.57819
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00012  0.00012  0.00011  1.0000
+  Al  Al2       1.0  0.00012  0.00012  0.50011  1.0000
+  Fe  Fe1       1.0  0.00012  0.00012  0.25011  1.0000
+  Fe  Fe2       1.0  0.00012  0.00012  0.75011  1.0000
+",4
+33,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       3.5162
+_cell_length_b       3.5162
+_cell_length_c       4.97264
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.75012  0.50012  0.37512  1.0000
+  Al  Al2       1.0  0.25012  0.00012  0.87512  1.0000
+  Al  Al3       1.0  0.25012  0.50012  0.62512  1.0000
+  Fe  Fe1       1.0  0.75012  0.00012  0.12512  1.0000
+",4
+34,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       4.81573
+_cell_length_b       4.81573
+_cell_length_c       2.40786
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00012  0.00012  0.00012  1.0000
+  Fe  Fe1       1.0  0.50011  0.00010  0.00012  1.0000
+  Fe  Fe2       1.0  0.00012  0.50012  0.00012  1.0000
+  Fe  Fe3       1.0  0.50010  0.50011  0.00012  1.0000
+",4
+35,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       2.78607
+_cell_length_b       8.76555
+_cell_length_c       2.78607
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00012  0.13772  0.25012  1.0000
+  Al  Al2       1.0  0.50012  0.63772  0.25012  1.0000
+  Al  Al3       1.0  0.50010  0.36250  0.75012  1.0000
+  Al  Al4       1.0  0.00010  0.86250  0.75012  1.0000
+",4
+36,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       2.75454
+_cell_length_b       2.75454
+_cell_length_c       5.50908
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.75012  0.25010  0.00012  1.0000
+  Fe  Fe2       1.0  0.25010  0.75010  0.00010  1.0000
+  Fe  Fe3       1.0  0.75012  0.25010  0.50010  1.0000
+  Fe  Fe4       1.0  0.25012  0.75012  0.50012  1.0000
+",4
+37,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       3.22774
+_cell_length_b       4.16731
+_cell_length_c       4.08297
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50012  0.80012  0.25012  1.0000
+  Al  Al2       1.0  0.50010  0.20010  0.75012  1.0000
+  Fe  Fe1       1.0  0.00012  0.30012  0.25012  1.0000
+  Fe  Fe2       1.0  0.00010  0.70010  0.75012  1.0000
+",4
+38,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       3.5162
+_cell_length_b       3.5162
+_cell_length_c       4.97264
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.75012  0.00012  0.12512  1.0000
+  Al  Al2       1.0  0.75012  0.50012  0.37512  1.0000
+  Al  Al3       1.0  0.25012  0.00012  0.87512  1.0000
+  Fe  Fe1       1.0  0.25012  0.50012  0.62512  1.0000
+",4
+39,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       2.34881
+_cell_length_b       2.34881
+_cell_length_c       8.76577
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.25012  0.00012  0.11612  1.0000
+  Fe  Fe1       1.0  0.75012  0.00012  0.88412  1.0000
+  Fe  Fe2       1.0  0.25012  0.00012  0.38412  1.0000
+  Fe  Fe3       1.0  0.75012  0.00012  0.61612  1.0000
+",4
+40,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       5.14357
+_cell_length_b       2.57179
+_cell_length_c       5.14357
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00011  0.00012  0.50012  1.0000
+  Al  Al2       1.0  0.00011  0.00012  0.00012  1.0000
+  Al  Al3       1.0  0.50011  0.00012  0.50012  1.0000
+  Al  Al4       1.0  0.50011  0.00012  0.00012  1.0000
+",4
+41,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       3.30799
+_cell_length_b       3.30799
+_cell_length_c       3.81986
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.00012  0.00012  0.25012  1.0000
+  Fe  Fe2       1.0  0.00010  0.00010  0.75010  1.0000
+  Fe  Fe3       1.0  0.50012  0.00012  0.00012  1.0000
+  Fe  Fe4       1.0  0.00012  0.50012  0.50012  1.0000
+",4
+42,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       5.10371
+_cell_length_b       4.08297
+_cell_length_c       2.63553
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.65012  0.75010  0.12510  1.0000
+  Al  Al2       1.0  0.15012  0.75012  0.37512  1.0000
+  Fe  Fe1       1.0  0.85012  0.25010  0.62510  1.0000
+  Fe  Fe2       1.0  0.35012  0.25012  0.87512  1.0000
+",4
+43,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       4.00985
+_cell_length_b       2.35031
+_cell_length_c       6.52351
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50012  0.00012  0.81212  1.0000
+  Al  Al2       1.0  0.00012  0.50012  0.31212  1.0000
+  Al  Al3       1.0  0.00012  0.00012  0.00012  1.0000
+  Fe  Fe1       1.0  0.50012  0.50012  0.50012  1.0000
+",4
+44,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       2.46848
+_cell_length_b       8.08475
+_cell_length_c       2.46848
+_cell_angle_alpha    90
+_cell_angle_beta     100.99
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50012  0.36791  0.75012  1.0000
+  Fe  Fe1       1.0  0.00012  0.13233  0.25012  1.0000
+  Fe  Fe2       1.0  0.00012  0.86791  0.75012  1.0000
+  Fe  Fe3       1.0  0.50012  0.63233  0.25012  1.0000
+",4
+45,"data_image0
+_chemical_formula_structural       Al4
+_chemical_formula_sum              ""Al4""
+_cell_length_a       2.78607
+_cell_length_b       8.76555
+_cell_length_c       2.78607
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00012  0.13772  0.25012  1.0000
+  Al  Al2       1.0  0.00010  0.86250  0.75010  1.0000
+  Al  Al3       1.0  0.50012  0.63772  0.25012  1.0000
+  Al  Al4       1.0  0.50010  0.36250  0.75010  1.0000
+",4
+46,"data_image0
+_chemical_formula_structural       Fe4
+_chemical_formula_sum              ""Fe4""
+_cell_length_a       3.4705
+_cell_length_b       3.4705
+_cell_length_c       3.4705
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.00012  0.00012  0.00012  1.0000
+  Fe  Fe2       1.0  0.50010  0.50010  0.00012  1.0000
+  Fe  Fe3       1.0  0.50010  0.00012  0.50010  1.0000
+  Fe  Fe4       1.0  0.00012  0.50010  0.50010  1.0000
+",4
+47,"data_image0
+_chemical_formula_structural       Al2Fe2
+_chemical_formula_sum              ""Al2 Fe2""
+_cell_length_a       2.5219
+_cell_length_b       2.5219
+_cell_length_c       8.63524
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00012  0.00012  0.29312  1.0000
+  Al  Al2       1.0  0.50010  0.50012  0.79312  1.0000
+  Fe  Fe1       1.0  0.00012  0.00012  0.00012  1.0000
+  Fe  Fe2       1.0  0.50010  0.50012  0.50012  1.0000
+",4
+48,"data_image0
+_chemical_formula_structural       Al3Fe
+_chemical_formula_sum              ""Al3 Fe1""
+_cell_length_a       2.60842
+_cell_length_b       4.51804
+_cell_length_c       5.21683
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00012  0.00012  0.00012  1.0000
+  Al  Al2       1.0  0.50012  0.50012  0.00012  1.0000
+  Al  Al3       1.0  0.50012  0.50012  0.50012  1.0000
+  Fe  Fe1       1.0  0.00012  0.00012  0.50012  1.0000
+",4
+49,"data_image0
+_chemical_formula_structural       AlFe3
+_chemical_formula_sum              ""Al1 Fe3""
+_cell_length_a       3.6433
+_cell_length_b       3.6433
+_cell_length_c       3.6433
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    ""P 1""
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00012  0.00012  0.00012  1.0000
+  Fe  Fe1       1.0  0.50012  0.50012  0.00012  1.0000
+  Fe  Fe2       1.0  0.50012  0.00012  0.50012  1.0000
+  Fe  Fe3       1.0  0.00012  0.50012  0.50012  1.0000
+",4
