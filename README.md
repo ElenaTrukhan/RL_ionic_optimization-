@@ -28,7 +28,7 @@ Example for cubic AlFe with EAM potential without additional greedy exploration 
 
   ## Test RL Agent 
 
-`python3 test.py --path_load '/checkpoints/td3_checkpoint_AlFe_cubic' --structures_file "structures/AlFe.csv" --eps 0.3 --max_step 100 --model_type 'e3nn(TD3)' --model_params [5,10,2,20,2,25]`
+`python3 test.py --path_load 'checkpoints/Fig5a/td3_checkpoint_AlFe_cubic' --structures_file "structures/AlFe.csv" --eps 0.3 --max_step 100 --model_type 'e3nn(TD3)' --model_params [5,10,2,20,2,25]`
 
 ## Checkpoints 
 
