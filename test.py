@@ -3,10 +3,13 @@ import torch
 import pandas as pd
 from utils.convert_to_graph_e3nn import to_graph 
 from utils.model_e3nn import PeriodicNetwork_Pi
+from utils.model_CGCNN import GraphConvNet_actor
+
 from utils.env import get_sturct_lib_and_calcs_gen
 from pymatgen.io.ase import AseAtomsAdaptor
 from ase.optimize import BFGS
 import numpy as np
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 def relax_new(struct, max_step, eps, pi, device):
     force = struct.get_forces()
@@ -45,6 +48,7 @@ if args.model_type == 'CGCNN(TD3)':
               "n_l2":args.model_params[3],
               "n_l3":args.model_params[4],
               "n_l4":args.model_params[5]}
+    pi = GraphConvNet_actor(**actor_feat)
 else: 
     actor_feat = {"max_radius" : args.model_params[0],  
                     "em_dim" :args.model_params[1], 
@@ -57,20 +61,20 @@ else:
                 "num_neighbors" : args.model_params[5],  
                 "reduce_output" : False}
     if args.model_type == 'e3nn(SAC)':
-        actor_feat["irreps_in"] = f"12x0e + 1x1o + {args.em_dim}x0e"
-        actor_feat["irreps_out"] = f"{args.model_params[0]}x0e+{args.model_params[0]}x1o"
-
-pi = PeriodicNetwork_Pi(**actor_feat)
+        actor_feat["irreps_out"] = f"{args.model_params[1]}x0e+{args.model_params[1]}x1o"
+    pi = PeriodicNetwork_Pi(**actor_feat)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 pi.to(device)
+
 if args.path_load is not None: 
     print('Loading models from {}'.format(args.path_load))
-    checkpoint = torch.load(args.path_load)
+    checkpoint = torch.load(args.path_load, map_location = device)
     pi.load_state_dict(checkpoint['ac_pi'])
 
 s_lib, calcs = get_sturct_lib_and_calcs_gen(args.structures_file)
 
 for i in range(len(s_lib)): 
+    np.random.seed(i)
     struct = AseAtomsAdaptor.get_atoms(s_lib[i])
     struct.calc = calcs[i] 
     relax = BFGS(struct)
@@ -82,6 +86,5 @@ for i in range(len(s_lib)):
     relax_new(struct, args.max_step, args.eps, pi, device)
     max_f = max((struct.get_forces()**2).sum(axis=1)**0.5)
     print(f'Final maximum force for structure # {i}: ', max_f, " ev/A")
-
 
 
